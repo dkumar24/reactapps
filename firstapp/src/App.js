@@ -1,4 +1,5 @@
-import EmployeeCard from './employee';
+import EmployeeList from "./employeelist";
+
 
 
 function App() {
@@ -8,9 +9,7 @@ function App() {
   {fName:"Deepak4",lName:"Kumar",company:"Bechtel",profile_image:"https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg"}]
   return (
     <div className="App">
-      <EmployeeCard {...employees[0]}/>
-      <EmployeeCard {...employees[1]}/>
-      <EmployeeCard {...employees[2]}/>
+      <EmployeeList employeelist={employees}/>
     </div>
   );
 }

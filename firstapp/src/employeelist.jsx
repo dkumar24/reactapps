@@ -1,10 +1,7 @@
 import EmployeeCard from "./employee";
 
 
-function EmployeeList(props)
-{
-    
-     
-    
-}
+const EmployeeList =(props)=> (<div>
+    {props.employeelist.map(employee => <EmployeeCard{...employee}/>)}
+</div>)
 export default EmployeeList;
