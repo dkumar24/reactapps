@@ -7,6 +7,7 @@ import { ToogleButtonTwo } from './components/tooglebuttontwo';
 import { EmployeeForm } from './components/employeeform';
 import { LifeCycleDemo } from './components/class_compontent_life_cycle/lifecycleusingclass_compontent';
 import { LifeCycleUisngFunction } from './components/functioncompontent_lifecycle/lifecycle_using_function';
+import { ConditionalRending } from './components/conditionalrendering';
 
 
 
@@ -36,9 +37,11 @@ function App() {
     
     <div className="App">
       <div><LifeCycleDemo initialValue={0}/>
+    
       <LifeCycleUisngFunction/>
       </div>
       <header className="App-header">
+      <ConditionalRending/>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
