@@ -8,6 +8,8 @@ import { EmployeeForm } from './components/employeeform';
 import { LifeCycleDemo } from './components/class_compontent_life_cycle/lifecycleusingclass_compontent';
 import { LifeCycleUisngFunction } from './components/functioncompontent_lifecycle/lifecycle_using_function';
 import { ConditionalRending } from './components/conditionalrendering';
+import { ListofItems } from './components/listdemo/listwithkeysdemo';
+
 
 
 
@@ -36,6 +38,8 @@ function App() {
     
     
     <div className="App">
+      <ListofItems items={[{id:1,title:"Deepak"},{id:2,title:"Sandeep"},{id:3,title:
+      "Chanpreet"},{id:4,title:"Navdeep"},{id:5,title:"Pardeep"},{id:6,title:"Kuldeep"},{id:7,title:"Sharma"}]}/>
       <div><LifeCycleDemo initialValue={0}/>
     
       <LifeCycleUisngFunction/>
