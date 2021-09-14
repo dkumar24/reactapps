@@ -5,15 +5,15 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
- React.createElement("ul",null,
- React.createElement("li",null,"Sunday"),
- React.createElement("li",null,"Monday"),
- React.createElement("li",null,"Tuesday"),
- React.createElement("li",null,"Wednesday"),
- React.createElement("li",null,"Thursday"),
- React.createElement("li",null,"Friday"),
- React.createElement("li",null,"Saturday"),
- ),
+ <ul>
+   <li>Sunday</li>
+   <li>Monday</li>
+   <li>Tuesday</li>
+   <li>Wedneday</li>
+   <li>Thursday</li>
+   <li>Friday</li>
+   <li>Saturday</li>
+ </ul>,
   document.getElementById('root')
 );
 
