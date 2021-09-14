@@ -1,19 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
+import './index.css';
+
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
- <ul>
-   <li>Sunday</li>
-   <li>Monday</li>
-   <li>Tuesday</li>
-   <li>Wedneday</li>
-   <li>Thursday</li>
-   <li>Friday</li>
-   <li>Saturday</li>
- </ul>,
+<App/>,
   document.getElementById('root')
 );
 
