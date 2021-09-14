@@ -2,27 +2,27 @@ import logo from './logo.svg';
 import './App.css';
 
 
-function Header(){
+function Header(props){
   return <h1>
-    I am Header
+    Hello {props.name}
   </h1>
 };
-function Main()
+function Main(props)
 {
   return <section>
-    I am in Main
+    {props.content}
   </section>
 };
-function Footer()
+function Footer(props)
 {
-  return <footer>I am Footer</footer>
+  return <footer>Copy Right {props.year}</footer>
 };
 function App() {
   return (
     <div>
-  <Header/>
-    <Main/>
-    <Footer/>
+  <Header name="Deepak"/>
+    <Main content="You can Change Any Content Here"/>
+    <Footer year={new Date().getFullYear()}/>
     </div>
   
   );
